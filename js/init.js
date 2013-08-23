@@ -13,7 +13,7 @@ jQuery(function () {
 
         if ((hash.replace(/^#/, '') || 'blank') == 'filedump') {
             document.open();
-            document.write('<script src="https://gist.github.com/6258949.js"><' + '\/script>');
+            document.write('<script src="https://gist.github.com/6324632.js"><' + '\/script>');
             document.close();
         }
 
