@@ -1,15 +1,11 @@
 jQuery.backstretch("http://codepirates.eiremedia.netdna-cdn.com/img/bg.png");
 
-
-
 jQuery(function () {
 
 
-
+/*
     jQuery(window).hashchange(function () {
         var hash = location.hash;
-
-
 
         if ((hash.replace(/^#/, '') || 'blank') == 'filedump') {
             document.open();
@@ -28,6 +24,8 @@ jQuery(function () {
     })
 
     jQuery(window).hashchange();
+    
+*/
 
     var links = document.getElementById('body').getElementsByTagName('a'),
         len = links.length,
@@ -46,8 +44,6 @@ jQuery(function () {
 
 });
 
-
-// Vibrating head
 jQuery.fn.vibrate = function (conf) {
     var config = jQuery.extend({
         speed: 50,
@@ -69,7 +65,7 @@ jQuery.fn.vibrate = function (conf) {
                 position: 'relative',
                 left: leftPos + 'px',
                 top: topPos + 'px',
-                WebkitTransform: 'rotate(' + rotate + 'deg)' // cheers to erik@birdy.nu for the rotation-idea
+                WebkitTransform: 'rotate(' + rotate + 'deg)'
             });
         };
 
