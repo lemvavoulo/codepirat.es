@@ -10,7 +10,7 @@
 
 -->
 <title>The Code Pirates</title>
-<meta name="description" content="The Code Pirates is a constantly updated resource for those interested in HTML5, CSS3, and JavaScript.">
+<meta name="description" content="The Code Pirates is a selection of Open Source Github projects hosted on a Content Delivery Network (CDN).">
 <meta name="author" content="David Higgins">
 <meta name="keywords" content="github,pirates" />
 <meta name="robots" content="index,follow" />
@@ -18,15 +18,22 @@
 <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="/>
 <link rel="humans" href="http://codepirat.es/humans.txt" />
 <link rel="license" href="creative commons zero attribution" />
-<link rel="image_src" href="http://codepirates.eiremedia.netdna-cdn.com/img.png" />
+<link rel="image_src" href="http://codepirates.eiremedia.netdna-cdn.com/img/img.jpg" />
 <meta property="og:site_name" content="The Code Pirates" />
 <meta property="og:title" content="The Code Pirates" />
 <meta property="og:url" content="http://codepirat.es/" />
-<meta property="og:image" content="http://codepirates.eiremedia.netdna-cdn.com/img/logo.png" />
+<meta property="og:image" content="http://codepirates.eiremedia.netdna-cdn.com/img/img.jpg" />
 
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
 <style>::-moz-selection{ background: #000; color: white; text-shadow: none; }::selection { background:#000; color:white; text-shadow: none; }</style>
+<style>
+@font-face {
+    font-family: "MolotRegular";
+    src: url('img/Molot.eot');
+    src: local("Molot"), local("Molot"), url('img/Molot.woff') format("woff"), url('img/Molot.ttf') format("truetype"), url('img/Molot.svg#Molot') format("svg");
+}
+</style>
 
 <link rel="stylesheet" href="http://css.cdn.tl/normalize.css" type="text/css"/>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" >
@@ -96,18 +103,15 @@ This is not the <strong>main reason</strong> behind the project, however.
 
 </p>
 
-
-
 <ul class="ordinary-list features">
 <li>Popular Github repos are copied onto our CDN.
 <li>Users can download the repo if Github goes down.
 <li>Users can link to the repo's assets (JS, CSS, and Images).
 <li>Submit your own repo and have your content served from the CDN.
-
 </ul>
 
 <p>
-<a data-toggle="modal" href="#myModal" class="btn btn-warning btn-sm pirate-button"><i class="icon-question-sign"></i> Frequently Asked Questions</a>
+<a data-toggle="modal" href="#myModal" class="btn btn-warning btn-sm pirate-button"><i class="icon-question-sign"></i> Read our quality guidelines.</a>
 </p>
 
 </div>
@@ -133,7 +137,7 @@ A list of every file on the CDN is available at these locations;
 </p>
 
 <p>
-<i class="service maxcdn icon-maxcdn"></i><a href="http://cdn.codepirat.es/filedump.html">Download from CDN. filedump.html (ile)</a><br>
+<i class="service maxcdn icon-maxcdn"></i><a href="http://cdn.codepirat.es/filedump.html">Download from CDN. filedump.html (HTML File)</a><br>
 </p>
 
 
@@ -213,32 +217,25 @@ Just copy and paste the following code into your HTML:<br>
 
 </section>
 
-
-
-  <!-- Modal -->
+  <!-- Guidelines -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Modal title</h4>
+          <h4 class="modal-title">Quality Guidelines</h4>
         </div>
         <div class="modal-body">
         <ul>
-<li>Is it generally badass enough to be shared with a large audience?<br><br>
-<li>Is it 'bleeding edge'? i.e: Does it use non-standard CSS3 / CSS4 properties?<br><br>
+<li>Is it cool enough to be shared with a large audience?<br><br>
 <li>Is the code light-weight? Is the code elegant? Is the code easy to maintain?<br><br>
 <li>Does the code perform well? Is it CPU-Fan friendly?<br><br>
 <li>Is it new? If not, how does it improve upon existing solutions?<br><br>
 <li>Is the code peer-reviewed by others? Is it influenced by others?<br><br>
-<li>Can the code run-from-anywhere? i.e: Unzip, open index.html, and run?<br><br>
-<li>None of the above? Fear not, <cite title="David Higgins">The Curator</cite> doesn't believe in rules anyways.<br><br>
-<li>These are <i>guides</i> and you should pay attention to them before submitting.<br><br>
 </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
@@ -267,12 +264,10 @@ window.open('https://github.com/dhig/codepirat.es')
 </a>
 
 
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
 
 <script src="http://codepirates.eiremedia.netdna-cdn.com/js/jquery.backstretch.js"></script>
-<script src="http://codepirates.eiremedia.netdna-cdn.com/js/jquery.ba-hashchange.min.js"></script>
 <script src="http://codepirates.eiremedia.netdna-cdn.com/js/jquery.simple-tooltip.js"></script>
 <script src="http://codepirates.eiremedia.netdna-cdn.com/js/init.js"></script>
 

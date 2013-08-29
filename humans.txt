@@ -12,12 +12,8 @@ Geocities still alive, WTF/FTW?!
 
 -=[ Scriptz Used on the Site ]=-
 
-Thx, Ben Alman (A.K.A cowboy)
-https://github.com/cowboy/jquery-hashchange/
-
 Thx, Scott Robbin
 http://srobbin.com/jquery-plugins/jquery-backstretch/
-
 
 -=[ Inspiration / Ideas ]=-
 

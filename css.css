@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "MolotRegular";
-    src: url('img/Molot.eot');
-    src: local("Molot"), local("Molot"), url('img/Molot.woff') format("woff"), url('img/Molot.ttf') format("truetype"), url('img/Molot.svg#Molot') format("svg");
-}
-
 ::-webkit-scrollbar {
     margin-right: 5px;
     width: 12px;
