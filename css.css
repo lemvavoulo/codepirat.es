@@ -99,7 +99,7 @@ footer center {
     margin-bottom: 2px;
     width: 55px;
     height: 20px;
-    background: url(img/tweet.png) black no-repeat;
+    background: url(http://cdn.higg.im/img/tw.png) black no-repeat;
     cursor: pointer;
 }
 
@@ -107,7 +107,7 @@ footer center {
     margin-bottom: 2px;
     width: 55px;
     height: 20px;
-    background: url(img/fork.png) black no-repeat;
+    background: url(http://cdn.higg.im/img/fork.png) black no-repeat;
     cursor: pointer;
 }
 
