@@ -99,7 +99,7 @@ footer center {
     margin-bottom: 2px;
     width: 55px;
     height: 20px;
-    background: url(http://cdn.higg.im/img/tw.png) black no-repeat;
+    background: url(img/twitter.png) black no-repeat;
     cursor: pointer;
 }
 
@@ -107,12 +107,12 @@ footer center {
     margin-bottom: 2px;
     width: 55px;
     height: 20px;
-    background: url(http://cdn.higg.im/img/fork.png) black no-repeat;
+    background: url(img/fork.png) black no-repeat;
     cursor: pointer;
 }
 
 .features,.more-info {
-    margin-left: -20px;
+    margin-left: 20px;
 }
 
 .ordinary-list li {
@@ -303,4 +303,11 @@ footer center {
     #github:hover span:last-child {
         -webkit-transform: rotateX(360deg);
     };
+}
+
+.maxcdn-footer{
+margin-top:25px
+}
+.browse-button{
+margin-top:25px
 }

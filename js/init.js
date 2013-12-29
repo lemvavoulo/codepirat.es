@@ -1,37 +1,13 @@
-jQuery.backstretch("http://codepirates.eiremedia.netdna-cdn.com/img/bg.png");
+jQuery.backstretch("http://codepirat.es/img/bg.png");
 
 jQuery(function () {
 
-
-/*
-    jQuery(window).hashchange(function () {
-        var hash = location.hash;
-
-        if ((hash.replace(/^#/, '') || 'blank') == 'filedump') {
-            document.open();
-            document.write('<script src="https://gist.github.com/6324632.js"><' + '\/script>');
-            document.close();
-        }
-
-
-        jQuery('#nav a').each(function () {
-            var that = jQuery(this);
-            that[that.attr('href') === hash ? 'addClass' : 'removeClass']('selected');
-        });
-
-
-
-    })
-
-    jQuery(window).hashchange();
-    
-*/
 
     var links = document.getElementById('body').getElementsByTagName('a'),
         len = links.length,
         i;
     for (i = len; i--;) {
-        if (!links[i].title.match(/top|shar|bai|Host/)) {
+        if (!links[i].title.match(/top|shar|bai|Host|Browse/)) {
             links[i].target = '_blank';
         }
     }

@@ -18,11 +18,11 @@
 <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="/>
 <link rel="humans" href="http://codepirat.es/humans.txt" />
 <link rel="license" href="creative commons zero attribution" />
-<link rel="image_src" href="http://codepirates.eiremedia.netdna-cdn.com/img/img.jpg" />
+<link rel="image_src" href="http://codepirat.es/img/img.jpg" />
 <meta property="og:site_name" content="The Code Pirates" />
 <meta property="og:title" content="The Code Pirates" />
 <meta property="og:url" content="http://codepirat.es/" />
-<meta property="og:image" content="http://codepirates.eiremedia.netdna-cdn.com/img/img.jpg" />
+<meta property="og:image" content="http://codepirat.es/img/img.jpg" />
 
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
@@ -35,10 +35,10 @@
 }
 </style>
 
-<link rel="stylesheet" href="http://css.cdn.tl/normalize.css" type="text/css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/normalize/2.1.3/normalize.min.css" type="text/css"/>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" >
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://codepirates.eiremedia.netdna-cdn.com/css.css?bust!" type="text/css"/>
+<link rel="stylesheet" href="css.css" type="text/css"/>
 
 </head>
 
@@ -47,7 +47,7 @@
 <section role="main">
 <header name="top">
 <a href="/" title="The Code Pirates">
-<img src="http://codepirates.eiremedia.netdna-cdn.com/img/logo.png" id="head" height="200"/>
+<img src="img/logo.png" id="head" height="200"/>
 </a>
 </header>
 
@@ -60,90 +60,66 @@
 <div class="block">
 
 <p>
-<strong>The Code Pirates</strong> is a handpicked selection of popular Open Source Github projects, that are hosted on a Content Delivery Network (CDN). The content we deliver is <strong>not hosted</strong> on Github.
+<strong>The Code Pirates</strong> is a handpicked selection of popular Open Source Github projects, that are hosted on a Content Delivery Network (CDN). The content we deliver is <strong>served from Github</strong>, and mirrored on our powerful <a href="http://maxcdn.com/">MaxCDN</a> infrastructure.
 </p>
 
 <p>
 The reasons behind The Code Pirates are as follows:
 
 <ul class="ordinary-list features">
-<li>To allow others to remotely link, or offload their assets, similar to projects like <a href="http://www.bootstrapcdn.com/">BootstrapCDN</a>, <a href="http://cdnjs.com/">CDNJS</a>, <A href="http://www.jsdelivr.com/">jsDeliver</a>, and <a href="http://cdn.tl">CDN.TL</a>
+<li>To allow others to remotely link, or offload their assets, similar to projects like <a href="http://www.bootstrapcdn.com/">BootstrapCDN</a>, <a href="http://cdnjs.com/">CDNJS</a>, and <A href="http://www.jsdelivr.com/">jsDelivr</a>.
 <li>To introduce those who are new to Github to some great open source projects.
-<li>To offer a way to access repos should <a href="https://status.github.com/">Github's servers go down</a>.<br>
-This is not the <strong>main reason</strong> behind the project, however.
+<li>We are on a <strong>very reliable MaxCDN</strong> setup, so assets will stay up, even if a repo gets to number one on Hackernews.
 </ul>
 
 </p>
 
-<h2>Download The Repos</h2>
-
-<p>
-<span class="label label-success">&#9679; CDN online.</span><br>
-<span class="label label-info">Filesize: 211MB. 181 Repos.</span>
-</p>
-
+<h2>Download The Repo From Github</h2>
 
 <p>
 <div class="dbox">
 <center>
-<a href="http://cdn.codepirat.es/cdn.codepirat.es.zip" title="Download The Code Pirates"><img class="download" height=256 src="img/download.png"/></a>
+<a href="https://github.com/dhig/github.codepirat.es/archive/gh-pages.zip" title="Download The Code Pirates"><img class="download" height=256 src="img/download.png"/></a>
 </center>
 </div>
-</p>
-
-<p>
-<a href="http://cdn.codepirat.es/cdn.codepirat.es.zip" class="btn btn-warning btn-sm pirate-button"><i class="icon-maxcdn"></i> Download the repo bundle from MaxCDN. (211MB).</a>
-
 </p>
 
 <h2>Information</h2>
 
 
-<p><cite title="David Higgins">The Maintainer</cite> has put together remote backups of The Chest on a <a href="http://tracking.maxcdn.com/c/38324/3968/378">CDN</a> should Github's servers go down:
+<p>It is best to browse the repo before downloading it, since there are a lot of repos and files included in the download.
 
 </p>
 
 <ul class="ordinary-list features">
-<li>Popular Github repos are copied onto our CDN.
-<li>Users can download the repo if Github goes down.
+<li>Popular Github repos are copied, or 'pulled' onto our CDN.
 <li>Users can link to the repo's assets (JS, CSS, and Images).
-<li>Submit your own repo and have your content served from the CDN.
 </ul>
 
-<p>
-<a data-toggle="modal" href="#myModal" class="btn btn-warning btn-sm pirate-button"><i class="icon-question-sign"></i> Read our quality guidelines.</a>
+<p class="browse-button">
+<a href="http://cdn.codepirat.es/" class="btn btn-warning btn-sm pirate-button"><i class="icon-question-sign"></i> Browse the contents of the repo.</a>
 </p>
 
 </div>
 
 <section class="title">
 <span class="cc">&#9733;</span>
-<span class="title-text">Browse the Files</span>
+<span class="title-text">Usage</span>
 <span class="cc">&#9733;</span>
 </section>
 
 <div class="block">
-<div id="bsap_1278447" class="bsarocks bsap_34ff9915aacae58d404570c35c360031"></div>
-<script src="//s3.buysellads.com/ac/bsa.js"></script> 
+All the assets can be served from the subdomain <strong>`cdn.codepirat.es`</strong><br>Example ― 
+
+<pre>
+http://cdn.codepirat.es/repos/8bit.js-master/build/8bit.min.js
+</pre>
+
 </div>
 
 <div class="block">
-
-<P>
-A list of every file on the CDN is available at these locations;
-
-<p>
-<i class="service github icon-github"></i><a href="https://gist.github.com/dhig/6324632">Github GIST</a><br>
-</p>
-
-<p>
-<i class="service cloudapp icon-cloud"></i><a href="http://f.cl.ly/items/2Y2b2C0q1w1U1l1g1D3o/filedump.txt">Download from Cloudapp. filedump.txt (Text File)</a><br>
-</p>
-
-<p>
-<i class="service maxcdn icon-maxcdn"></i><a href="http://cdn.codepirat.es/filedump.html">Download from CDN. filedump.html (HTML File)</a><br>
-</p>
-
+<div id="bsap_1278447" class="bsarocks bsap_34ff9915aacae58d404570c35c360031"></div>
+<script src="//s3.buysellads.com/ac/bsa.js"></script> 
 </div>
 
 <section class="title">
@@ -156,14 +132,13 @@ A list of every file on the CDN is available at these locations;
 
 
 <p>
-Whilst the main purpose of this project is to serve assets from a CDN, we understand that Github's servers can go down without notice, and this is a temporary, albeit limited solution, to that problem. Our service is not 100% reliable, and we make no claims to that.
+Whilst the main purpose of this project is to serve assets from a CDN, we understand that Github's servers can go down without notice. Since we have configured the CDN to serve stale assets (assets which have changed), you should have no problems.
 </p>
 
-<p>
-Since this project is hosted on Github Pages, it is liable to go offline. We have attached the domain to Cloudflare, so our page should persist even if Github Pages does go offline.</p>
+<p>As an extra up-time measure, we have attached the CDN to Cloudflare. This should keep the bad guys off our CDN, and keep the files up, when your all important website gets Slashdotted, or gets to number one on Hacker News.</p>
 
 <p>
-I believe this project is invaluable to the developer community at large, but I think that more could be done. I am looking for people willing to help kickstart the project financially and therefore make it faster, better, and stronger. I am on <a href="https://www.gittip.com/higgo/">Git-tip</a>, so if you want to fund this project, you can do so on <a href="https://www.gittip.com/higgo/">Git-tip</a>, or you can simply <a href="http://higg.tel/">contact Me</a>. I have <a href="https://github.com/dhig/codepirat.es/wiki/The-Github-Pirates-Wishlist">a wishlist</a> of things I want for the project I can't afford right now, and the project desperately needs more money pumped into it.
+I believe this project is invaluable to the developer community at large, but I think that more could be done. I am looking for people willing to help kickstart the project financially and therefore make it faster, better, and stronger. I am on <a href="https://www.gittip.com/higgo/">Git-tip</a>, so if you want to fund this project, you can do so on <a href="https://www.gittip.com/dhig/">Git-tip</a>, or you can simply <a href="http://higg.tel/">contact Me</a>. I have <a href="https://github.com/dhig/codepirat.es/wiki/The-Github-Pirates-Wishlist">a wishlist</a> of things I want for the project I can't afford right now, and the project desperately needs more money pumped into it.
 </p>
 
 </div>
@@ -182,7 +157,6 @@ I believe this project is invaluable to the developer community at large, but I 
   <li><i class="icon-li icon-envelope"></i> <a href="http://higg.tel/">Contact me</a><br>
   <li><i class="icon-li icon-github"></i> <a href="https://github.com/dhig/codepirat.es/">Github</a><br>
   <li><i class="icon-li icon-heart-empty"></i> <a href="https://github.com/dhig/codepirat.es/wiki/The-Github-Pirates-Wishlist">Github - Wishlist</a><br>
-  <li><i class="icon-li icon-comment"></i> <a href="https://github.com/dhig/codepirat.es/issues">Github - Issues</a><br>
 </ul>
 
 <p>
@@ -190,12 +164,16 @@ If you are using the service, you can also tell others by including this small A
 <img src="http://cdn.codepirat.es/codepirates.png"><br>
 Just copy and paste the following code into your HTML:<br>
 <pre>
-&lt;a href=&quot;http://codepirat.es/?ref&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://codepirates.eiremedia.netdna-cdn.com/img/codepirates.png&quot;&gt;&lt;/a&gt;
+&lt;a href=&quot;http://codepirat.es/?ref&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cdn.codepirat.es/codepirates.png&quot;&gt;&lt;/a&gt;
 </pre>
+
+<p>
+<center class="maxcdn-footer"><a href="http://maxcdn.com/">Brought To You By MaxCDN <i class="icon-maxcdn"></i></a></center>
 </p>
 
 </p>
 
+</p>
 
 </div>
 
@@ -206,37 +184,12 @@ Just copy and paste the following code into your HTML:<br>
 </center>
 
 <center>
-<img src="http://cdn.codepirat.es/codepirates.png"/> | <img src="http://codepirates.eiremedia.netdna-cdn.com/img/gh.png"/> | <img src="http://codepirates.eiremedia.netdna-cdn.com/img/html5.png"/> | <img src="http://codepirates.eiremedia.netdna-cdn.com/img/css3.png"/>
+<img src="img/codepirates.png"/> | <img src="img/gh.png"/> | <img src="img/html5.png"/> | <img src="img/css3.png"/>
 </center>
 
 </footer>
 
 </section>
-
-  <!-- Guidelines -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Quality Guidelines</h4>
-        </div>
-        <div class="modal-body">
-        <ul>
-<li>Is it cool enough to be shared with a large audience?<br><br>
-<li>Is the code light-weight? Is the code elegant? Is the code easy to maintain?<br><br>
-<li>Does the code perform well? Is it CPU-Fan friendly?<br><br>
-<li>Is it new? If not, how does it improve upon existing solutions?<br><br>
-<li>Is the code peer-reviewed by others? Is it influenced by others?<br><br>
-</ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Okay</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
 
 <script>
 function s(e,x,y) {e.style.backgroundPosition = x + "px -" + y + "px"};
@@ -254,20 +207,17 @@ window.open('https://github.com/dhig/codepirat.es')
 <div class="fork_button" onmouseover="s(this,0,21)" onmouseout="s(this,0,0)" onmousedown="s(this,0,42)" onclick="do_the_fork_dance();"></div>
 </div>
 
-<a id="github" title="Host a Repo" href="https://github.com/dhig/codepirat.es/issues">
-<span><i class="icon-github"></i> Host a Repo</span>
-<span><i class="icon-hand-right"></i> Submit Here</span>
+<a id="github" title="Browse" href="https://cdn.codepirat.es/">
+<span><i class="icon-github"></i> Browse CDN</span>
+<span><i class="icon-hand-right"></i> Click Here</span>
 </a>
-
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
 
-<script src="http://codepirates.eiremedia.netdna-cdn.com/js/jquery.backstretch.js"></script>
-<script src="http://codepirates.eiremedia.netdna-cdn.com/js/jquery.simple-tooltip.js"></script>
-<script src="http://codepirates.eiremedia.netdna-cdn.com/js/init.js?bust!"></script>
-
-<script src="http://unicorns.myshar.es/in/mint11/?js"></script>
+<script src="js/jquery.backstretch.js"></script>
+<script src="js/jquery.simple-tooltip.js"></script>
+<script src="js/init.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -277,7 +227,6 @@ window.open('https://github.com/dhig/codepirat.es')
 
   ga('create', 'UA-44077028-7', 'codepirat.es');
   ga('send', 'pageview');
-
 </script>
 
 </body>
