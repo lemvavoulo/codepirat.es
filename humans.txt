@@ -1,25 +1,2 @@
--=[ Oh Hai! Welcome to The Code Pirates hum0ns.txt ]=-
-
-            .-.
-           (0.0)
-         '=.|m|.='
-         .='`"``=.
-
-Ascii Skull, courtesy of:
-http://www.geocities.com/spunk1111/small.htm
-Geocities still alive, WTF/FTW?!
-
-
--=[ Scriptz Used on the Site ]=-
-
-Thx, Scott Robbin
-http://srobbin.com/jquery-plugins/jquery-backstretch/
-
--=[ Inspiration / Ideas ]=-
-
-Thx, The HTML5 Boilerplate Team
-http://h5bp.com/
-(For the Molot webfont idea. It rocks!)
-
-Thx, Chris Coyier of CSS-Tricks, for the following techniques:
-http://css-tricks.com/adding-stroke-to-web-text/
+"Be the change you wish to see in the world"
+- Mahatma Gandhi
